@@ -1,0 +1,32 @@
+img{
+    width:40px;
+    height:20px;
+}
+
+table, th,td{
+    border: 0.5px solid black;
+    border-collapse:collapse;
+}
+
+body{
+    font-family: Verdana;
+    font-size: 15px;
+}
+
+table{
+    width: 50%;
+    height: 25em;
+    text-align: center;
+    border-radius: 25px;  
+}
+
+th{
+    background-color: #590696;
+    color: white;
+    font-family: Cambria;
+    font-size: 20px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
